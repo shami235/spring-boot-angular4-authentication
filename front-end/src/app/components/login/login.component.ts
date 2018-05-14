@@ -17,10 +17,12 @@ export class LoginComponent implements OnInit {
 
 
 
+
   ngOnInit() {
   }
 
   login(){
+    console.log("printing");
     this.authService.logIn(this.user)
       .subscribe(data=>{
         this.router.navigate(['/profile']);
