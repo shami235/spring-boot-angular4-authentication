@@ -1,12 +1,15 @@
 
-<mat-toolbar>
-  <mat-toolbar-row>
-    <span>First Row</span>
-  </mat-toolbar-row>
+<mat-toolbar color="primary">
+  <span>Homecca</span>
 
-  <mat-toolbar-row>
-    <span>Second Row</span>
-  </mat-toolbar-row>
+  <!-- This fills the remaining space of the current row -->
+  <span class="example-fill-remaining-space"></span>
+
+  <div class="button-row">
+    <button mat-button>Basic</button>
+    <button mat-button >Accent</button>
+    <button mat-button >Warn</button>
+  </div>
 </mat-toolbar>
 
       <router-outlet></router-outlet>
