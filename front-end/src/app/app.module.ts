@@ -13,9 +13,11 @@ import { ProfileComponent } from './components/profile/profile.component';
 import {routing} from "./app.routing";
 import {FacebookModule} from "ngx-facebook";
 import {UrlPermission} from "./urlPermission/url.permission";
+import { HomeComponent } from './components/home/home.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {NgbdModalBasic} from './modal-basic';
 import { LoginModalComponent } from './login-modal/login-modal.component';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import { LoginModalComponent } from './login-modal/login-modal.component';
     LoginComponent,
     RegisterComponent,
     ProfileComponent,
+    HomeComponent,
     NgbdModalBasic,
     LoginModalComponent
 
